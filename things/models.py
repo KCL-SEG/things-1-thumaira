@@ -8,7 +8,7 @@ class Thing(models.Model):
         blank = False
     )
 
-    descriptiom = models.CharField(
+    description = models.CharField(
         max_length= 120,
         unique= False,
         blank = True
